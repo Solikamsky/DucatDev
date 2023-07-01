@@ -1,0 +1,53 @@
+taxbuildingg = {
+	cost = 200
+	time = 0
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	
+	on_built = {
+		add_base_tax = 1
+		remove_building = taxbuildingg
+	}
+
+	ai_will_do = {
+		factor = 0 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+productionbuildingg = {
+	cost = 200
+	time = 0
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	
+	on_built = { 
+		add_base_production = 1
+		remove_building = productionbuildingg
+	}
+	
+	ai_will_do = {
+		factor = 0 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+manpowerbuildingg = {
+	cost = 200
+	time = 0
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	
+	on_built = {
+		add_base_manpower = 1
+		remove_building = manpowerbuildingg
+	}	
+
+	ai_will_do = {
+		factor = 0 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}

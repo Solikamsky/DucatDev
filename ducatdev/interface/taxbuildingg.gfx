@@ -1,0 +1,17 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_taxbuildingg"
+		texturefile = "gfx//interface//buildings//taxbuildingg.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_productionbuildingg"
+		texturefile = "gfx//interface//buildings//productionbuildingg.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_manpowerbuildingg"
+		texturefile = "gfx//interface//buildings//manpowerbuildingg.tga"
+		loadType = "INGAME"
+	}
+}
